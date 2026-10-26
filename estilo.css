@@ -1,8 +1,8 @@
-/* El muro del laboratorio de xJochix. Lo único que se mueve es el personaje: está hecho de píxeles reales que se arman
+/* El muro del laboratorio de xSudox. Lo único que se mueve es el personaje, Sudo: está hecho de píxeles (o vóxeles, en 3D) que se arman
    al cargar y se apartan cuando el visitante los toca. Todo lo demás queda quieto: nombre, oficio y cuatro stickers. */
 :root{
   --muro:#16141C; --veta:#1D1A25; --tiza:#EDE9F3; --polvo:#9A94A8;
-  --neon:#FF3D6E; --jade:#3FAE7A; --pixel:#9FF3FF; --oro:#F5C542;
+  --neon:#FF3D6E; --hoodie:#A47BDB; --pixel:#9FF3FF; --oro:#F5C542;
   --nombre:"Bricolage Grotesque","Arial Narrow",Arial,sans-serif;
   --tag:"Permanent Marker","Comic Sans MS",cursive;
   --texto:"Atkinson Hyperlegible","Helvetica Neue",Arial,sans-serif;
@@ -46,7 +46,7 @@ ul{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:16px
 li:nth-child(1) .sticker{background:var(--pixel);transform:rotate(-3deg)}
 li:nth-child(2) .sticker{background:var(--oro);transform:rotate(2deg)}
 li:nth-child(3) .sticker{background:var(--tiza);transform:rotate(-1.5deg)}
-li:nth-child(4) .sticker{background:var(--jade);transform:rotate(3deg)}
+li:nth-child(4) .sticker{background:var(--hoodie);transform:rotate(3deg)}
 .sticker:hover{transform:rotate(0) translateY(-3px);box-shadow:5px 8px 0 rgba(0,0,0,.55)}
 .sticker:focus-visible,.idioma a:focus-visible{outline:3px solid var(--neon);outline-offset:4px}
 .personaje{position:relative;justify-self:center;width:min(560px,100%);aspect-ratio:1;touch-action:pan-y}
